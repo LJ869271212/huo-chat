@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="news_channel_name">
+        <item>头条</item>
+        <item>社会</item>
+        <item>国内</item>
+        <item>国际</item>
+        <item>娱乐</item>
+        <item>体育</item>
+        <item>军事</item>
+        <item>科技</item>
+        <item>财经</item>
+        <item>时尚</item>
+
+    </string-array>
+
+    <string-array name="news_channel_type">
+
+        <item>top</item>
+        <item>shehui</item>
+        <item>guonei</item>
+        <item>guoji</item>
+        <item>yule</item>
+        <item>tiyu</item>
+        <item>junshi</item>
+        <item>keji</item>
+        <item>caijing</item>
+        <item>shishang</item>
+    </string-array>
+
+    <string-array name="video_channel_name">
+
+        <item>热点</item>
+        <item>娱乐</item>
+        <item>搞笑</item>
+        <item>精品</item>
+    </string-array>
+    <string-array name="video_channel_type">
+
+        <item>V9LG4B3A0</item>
+        <item>V9LG4CHOR</item>
+        <item>V9LG4E6VR</item>
+        <item>00850FRB</item>
+    </string-array>
+</resources>

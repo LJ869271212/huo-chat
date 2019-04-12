@@ -1,0 +1,13 @@
+include ':client',
+        ':push',
+        ':chat',
+        ':mars-core-release',
+        ':emojilibrary',
+        ':imagepicker',
+        ':avenginekit'
+include ':library:common'
+include ':library:irecyclerview'
+include ':library:photoPicker'
+include ':library:jcvideoplayer'
+include ':library:selectordialog'
+include ':library:provider7'
