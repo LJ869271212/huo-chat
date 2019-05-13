@@ -126,9 +126,13 @@ public class MainActivity extends WfcBaseActivity implements ViewPager.OnPageCha
         //设置ViewPager的最大缓存页面
         mVpContent.setOffscreenPageLimit(3);
 
+        //会话页
         mFragmentList.add(FragmentFactory.getInstance().getRecentMessageFragment());
+        //联系人页
         mFragmentList.add(FragmentFactory.getInstance().getContactsFragment());
+        //发现页
         mFragmentList.add(FragmentFactory.getInstance().getChildNewsFragment());
+        //我页
         mFragmentList.add(FragmentFactory.getInstance().getMeFragment());
         mVpContent.setAdapter(new CommonFragmentPagerAdapter(getSupportFragmentManager(), mFragmentList));
         mVpContent.setOnPageChangeListener(this);

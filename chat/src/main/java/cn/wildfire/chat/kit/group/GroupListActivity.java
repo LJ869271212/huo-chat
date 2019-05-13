@@ -8,6 +8,9 @@ import cn.wildfire.chat.kit.WfcBaseActivity;
 import cn.wildfirechat.chat.R;
 import cn.wildfirechat.model.GroupInfo;
 
+/**
+ * 群聊界面
+ */
 public class GroupListActivity extends WfcBaseActivity {
 
     private boolean forResult;

@@ -12,7 +12,9 @@ import cn.wildfire.chat.kit.WfcBaseActivity;
 import cn.wildfire.chat.kit.third.utils.UIUtils;
 import cn.wildfirechat.chat.R;
 
-
+/**
+ * 修改昵称界面
+ */
 public class SetAliasActivity extends WfcBaseActivity {
 
     private String mFriendId;

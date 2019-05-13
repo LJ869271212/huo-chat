@@ -8,6 +8,9 @@ import androidx.appcompat.widget.SearchView;
 import cn.wildfire.chat.kit.WfcBaseActivity;
 import cn.wildfirechat.chat.R;
 
+/**
+ * 添加朋友界面
+ */
 public class SearchUserActivity extends WfcBaseActivity {
 
     private SearchView searchView;

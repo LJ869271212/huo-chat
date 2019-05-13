@@ -30,6 +30,9 @@ import cn.wildfire.chat.kit.user.UserViewModel;
 import cn.wildfire.chat.kit.widget.QuickIndexBar;
 import cn.wildfirechat.model.UserInfo;
 
+/**
+ * 联系人页
+ */
 public class ContactFragment extends BaseContactFragment implements QuickIndexBar.OnLetterUpdateListener {
     private UserViewModel userViewModel;
 

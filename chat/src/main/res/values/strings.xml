@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">野火IM</string>
+    <string name="app_name">火聊</string>
     <string name="str_end">已是最后哦~</string>
     <string name="str_news_detail_title">资讯详情</string>
     <string name="complete">完成</string>
@@ -79,7 +79,7 @@
     <string name="exit">退出</string>
 
     <!--关于-->
-    <string name="app_name_in_about">野火即时通讯</string>
+    <string name="app_name_in_about">火聊即时通讯</string>
     <string name="function_introduction">功能介绍</string>
     <string name="complaint">投诉</string>
     <string name="check_update">检查更新</string>

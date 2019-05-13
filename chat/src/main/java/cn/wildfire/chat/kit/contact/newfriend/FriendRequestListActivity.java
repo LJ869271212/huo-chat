@@ -7,6 +7,9 @@ import cn.wildfire.chat.kit.WfcBaseActivity;
 import cn.wildfire.chat.kit.third.utils.UIUtils;
 import cn.wildfirechat.chat.R;
 
+/**
+ * 新的朋友界面
+ */
 public class FriendRequestListActivity extends WfcBaseActivity {
 
     @Override

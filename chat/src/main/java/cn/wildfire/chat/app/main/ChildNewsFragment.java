@@ -17,6 +17,9 @@ import butterknife.Bind;
 import cn.wildfire.chat.app.bean.JuHeNewsData;
 import cn.wildfirechat.chat.R;
 
+/**
+ * 发现页（新闻资讯界面）
+ */
 public class ChildNewsFragment extends BaseFragment<JuHeNewsPresenter, JuHeNewsListModel> implements JuHeNewsContract.View, OnRefreshListener, OnLoadmoreListener {
     @Bind(R.id.recyclerview)
     RecyclerView recyclerview;

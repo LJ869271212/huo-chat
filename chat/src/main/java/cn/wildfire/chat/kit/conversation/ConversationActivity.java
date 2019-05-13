@@ -52,6 +52,9 @@ import cn.wildfirechat.model.GroupInfo;
 import cn.wildfirechat.model.UserInfo;
 import cn.wildfirechat.remote.ChatManager;
 
+/**
+ * 会话界面
+ */
 public class ConversationActivity extends WfcBaseActivity implements
         KeyboardAwareLinearLayout.OnKeyboardShownListener,
         KeyboardAwareLinearLayout.OnKeyboardHiddenListener,

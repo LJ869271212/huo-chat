@@ -10,6 +10,9 @@ import cn.wildfire.chat.kit.WfcBaseActivity;
 import cn.wildfire.chat.app.main.SplashActivity;
 import cn.wildfirechat.chat.R;
 
+/**
+ * 设置界面
+ */
 public class SettingActivity extends WfcBaseActivity {
 
     @Override

@@ -15,6 +15,9 @@ import cn.wildfirechat.chat.R;
 import cn.wildfirechat.model.Conversation;
 import cn.wildfirechat.model.GroupInfo;
 
+/**
+ * 创建会话界面
+ */
 public class CreateConversationActivity extends PickConversationTargetActivity {
     private GroupViewModel groupViewModel;
 

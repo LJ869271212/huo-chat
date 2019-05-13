@@ -28,6 +28,10 @@ public class FragmentFactory {
     private NewsFragment mNewsFragment;
     private ChildNewsFragment mChildNewsFragment;
 
+    /**
+     * 会话页
+     * @return
+     */
     public ConversationListFragment getRecentMessageFragment() {
         if (mRecentMessageFragment == null) {
             synchronized (FragmentFactory.class) {
@@ -39,6 +43,10 @@ public class FragmentFactory {
         return mRecentMessageFragment;
     }
 
+    /**
+     * 联系人页
+     * @return
+     */
     public ContactFragment getContactsFragment() {
         if (mContactsFragment == null) {
             synchronized (FragmentFactory.class) {
@@ -61,6 +69,10 @@ public class FragmentFactory {
         return mNewsFragment;
     }
 
+    /**
+     * 发现页
+     * @return
+     */
     public ChildNewsFragment getChildNewsFragment() {
         if (mChildNewsFragment == null) {
             synchronized (FragmentFactory.class) {
@@ -83,6 +95,10 @@ public class FragmentFactory {
         return mDiscoveryFragment;
     }
 
+    /**
+     * 我页
+     * @return
+     */
     public MeFragment getMeFragment() {
         if (mMeFragment == null) {
             synchronized (FragmentFactory.class) {

@@ -4,6 +4,9 @@ import cn.wildfire.chat.kit.WfcBaseActivity;
 import cn.wildfirechat.chat.R;
 import cn.wildfirechat.model.UserInfo;
 
+/**
+ * 用户信息界面
+ */
 public class UserInfoActivity extends WfcBaseActivity {
 
     @Override

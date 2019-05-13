@@ -7,6 +7,9 @@ import cn.wildfire.chat.kit.search.module.ContactSearchModule;
 import cn.wildfire.chat.kit.search.module.ConversationSearchModule;
 import cn.wildfire.chat.kit.search.module.GroupSearchViewModule;
 
+/**
+ * 搜索界面
+ */
 public class SearchPortalActivity extends SearchActivity {
     @Override
     protected void initSearchModule(List<SearchableModule> modules) {

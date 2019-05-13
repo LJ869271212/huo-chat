@@ -7,6 +7,9 @@ import cn.wildfire.chat.kit.WfcBaseActivity;
 import cn.wildfirechat.chat.R;
 import cn.wildfirechat.model.ConversationInfo;
 
+/**
+ * 会话详情页
+ */
 public class ConversationInfoActivity extends WfcBaseActivity {
 
     private ConversationInfo conversationInfo;

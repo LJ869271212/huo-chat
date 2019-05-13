@@ -6,6 +6,9 @@ import android.view.MenuItem;
 import cn.wildfire.chat.kit.WfcBaseActivity;
 import cn.wildfirechat.chat.R;
 
+/**
+ * 频道界面
+ */
 public class ChannelListActivity extends WfcBaseActivity {
 
     @Override

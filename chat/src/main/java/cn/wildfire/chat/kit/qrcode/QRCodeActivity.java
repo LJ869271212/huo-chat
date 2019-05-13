@@ -18,6 +18,9 @@ import cn.wildfire.chat.kit.GlideApp;
 import cn.wildfire.chat.kit.WfcBaseActivity;
 import cn.wildfirechat.chat.R;
 
+/**
+ * 二维码界面
+ */
 public class QRCodeActivity extends WfcBaseActivity {
     private String title;
     private String logoUrl;

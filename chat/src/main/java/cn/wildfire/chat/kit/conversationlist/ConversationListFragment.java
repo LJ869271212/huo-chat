@@ -26,6 +26,9 @@ import cn.wildfirechat.model.Conversation;
 import cn.wildfirechat.model.ConversationInfo;
 import cn.wildfirechat.model.UserInfo;
 
+/**
+ * 会话列表页
+ */
 public class ConversationListFragment extends Fragment {
     private RecyclerView recyclerView;
     private ConversationListAdapter adapter;

@@ -29,6 +29,9 @@ import cn.wildfire.chat.kit.user.UserViewModel;
 import cn.wildfirechat.chat.R;
 import cn.wildfirechat.model.UserInfo;
 
+/**
+ * 我的界面
+ */
 public class MeFragment extends Fragment {
 
     @Bind(R.id.meLinearLayout)
