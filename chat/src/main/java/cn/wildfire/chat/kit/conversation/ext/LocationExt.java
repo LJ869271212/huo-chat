@@ -4,6 +4,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.view.View;
 
+import com.jaydenxiao.common.commonutils.ToastUitl;
+
 import cn.wildfire.chat.kit.annotation.ExtContextMenuItem;
 import cn.wildfire.chat.kit.conversation.ext.core.ConversationExt;
 import cn.wildfire.chat.kit.third.location.data.LocationData;
@@ -22,10 +24,11 @@ public class LocationExt extends ConversationExt {
      */
     @ExtContextMenuItem(title = "位置")
     public void image(View containerView, Conversation conversation) {
-        Intent intent = new Intent(context, MyLocationActivity.class);
-        startActivityForResult(intent, 100);
-        TypingMessageContent content = new TypingMessageContent(TypingMessageContent.TYPING_LOCATION);
-        conversationViewModel.sendMessage(content);
+        ToastUitl.showShort(context, "敬请期待！");
+//        Intent intent = new Intent(context, MyLocationActivity.class);
+//        startActivityForResult(intent, 100);
+//        TypingMessageContent content = new TypingMessageContent(TypingMessageContent.TYPING_LOCATION);
+//        conversationViewModel.sendMessage(content);
     }
 
     @Override

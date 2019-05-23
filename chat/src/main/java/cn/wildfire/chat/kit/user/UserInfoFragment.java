@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
+import com.jaydenxiao.common.commonutils.ToastUitl;
 import com.lqr.imagepicker.ImagePicker;
 import com.lqr.imagepicker.bean.ImageItem;
 import com.lqr.optionitemview.OptionItemView;
@@ -153,22 +154,24 @@ public class UserInfoFragment extends Fragment {
 
     @OnClick(R.id.aliasOptionItemView)
     void alias() {
-        String selfUid = userViewModel.getUserId();
-        if (selfUid.equals(userInfo.uid)) {
-            Intent intent = new Intent(getActivity(), ChangeMyNameActivity.class);
-            startActivity(intent);
-        } else {
-            Intent intent = new Intent(getActivity(), SetAliasActivity.class);
-            intent.putExtra("userId", userInfo.uid);
-            startActivity(intent);
-        }
+        ToastUitl.showShort(getContext(), "敬请期待！");
+//        String selfUid = userViewModel.getUserId();
+//        if (selfUid.equals(userInfo.uid)) {
+//            Intent intent = new Intent(getActivity(), ChangeMyNameActivity.class);
+//            startActivity(intent);
+//        } else {
+//            Intent intent = new Intent(getActivity(), SetAliasActivity.class);
+//            intent.putExtra("userId", userInfo.uid);
+//            startActivity(intent);
+//        }
     }
 
     private static final int REQUEST_CODE_PICK_IMAGE = 100;
 
     @OnClick(R.id.portraitImageView)
     void portrait() {
-        ImagePicker.picker().pick(this, REQUEST_CODE_PICK_IMAGE);
+        ToastUitl.showShort(getContext(),"敬请期待！");
+//        ImagePicker.picker().pick(this, REQUEST_CODE_PICK_IMAGE);
     }
 
     @Override
